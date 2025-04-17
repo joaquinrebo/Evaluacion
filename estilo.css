@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{  
+    font-family: "DM Sans", sans-serif;
+    background-color: #f1f1f1;
+    margin:5%;
+    line-height: 1.6;
+}
+
+
+main{ 
+    max-width: 800;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgb(213,187,366)
+}
+
+header{
+    text-align: center;
+    color:rgb(17, 57, 70);
+    padding:  20px 0;
+    border-radius: 8px 8px 0 0;
+    background-image: url('./img/veronica-KeIL-gKZrAM-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+header figure img{
+    border-radius: 50%;
+    border: 5px solid #090a0a;
+    box-shadow: 0 0 10px;
+    
+}
+
+header h1{
+    font-size: 2em;
+    margin-top: 10px;
+}
+header h2{
+    font-family: 1.2em;
+    opacity: 0.7;
+}
+
+.container{
+    background-color: rgb(160, 160, 252);
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 0 20px rgb(150,257,167);
+}
+
+.container_foto_perfil{
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    border: 7px solid #0ebaba;
+    margin: 5%;
+    box-shadow: 0 0 20px rgba(158, 107, 107, 0.5);
+}
+
+
+.container_foto_perfil img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.cabecera{
+    position: relative;
+}
+
+.nombre_puesto{
+    display:  inline-block;
+    vertical-align: middle;
+    margin-left: 1%;
+    text-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+h3{
+    color: rgba(72, 117, 117, 0.1);
+}
+
+section{
+    background-color: rgb(236, 232, 232);
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(219, 213, 213, 0.1);
+}
+
+section hr{
+    border: 0;
+    height: 2px;
+    margin: 10px;
+    background: #000c0c; 
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    padding: 5px 0;
+}
+
+i{
+    color: #0ebaba;
+    margin-right: 8px;
+}
+
+address p{
+    margin: 5px 0;
+}
+
+address a {
+    color: #0ebaba;
+    text-decoration: none;
+}
+
+article{
+    margin-bottom: 15px;
+}
+
+.titulo-perfil {
+    color: #978e0d;
+    font-weight: bold;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
